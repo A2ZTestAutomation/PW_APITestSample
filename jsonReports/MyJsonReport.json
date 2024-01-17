@@ -1,0 +1,118 @@
+{
+  "config": {
+    "configFile": "f:\\Anandhi\\workspace\\playwrightTSWS\\PW_APITestSample\\playwright.config.ts",
+    "rootDir": "f:/Anandhi/workspace/playwrightTSWS/PW_APITestSample/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 1745.9699999999998
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/MyJsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "f:/Anandhi/workspace/playwrightTSWS/PW_APITestSample/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "f:/Anandhi/workspace/playwrightTSWS/PW_APITestSample/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "apiTestSamples2.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.37.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apiTestSamples2.test.ts",
+      "file": "apiTestSamples2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API Testing - CRUD",
+          "file": "apiTestSamples2.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "To update the booking details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1073,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Response Body....{\"firstname\":\"James\",\"lastname\":\"Brown\",\"totalprice\":111,\"depositpaid\":true,\"bookingdates\":{\"checkin\":\"2023-06-01\",\"checkout\":\"2023-06-15\"},\"additionalneeds\":\"Breakfast\"}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-11T10:59:11.123Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9f33fe5dbae1e3966e1a-74ea2f3965cb6e73d718",
+              "file": "apiTestSamples2.test.ts",
+              "line": 100,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
